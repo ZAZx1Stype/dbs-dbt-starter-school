@@ -31,3 +31,4 @@ SELECT
     airport_fee,
     trip_type
 FROM source_data
+

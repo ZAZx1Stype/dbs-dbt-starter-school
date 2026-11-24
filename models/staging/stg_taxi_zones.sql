@@ -6,7 +6,7 @@
 -- ==============================================================================
 
 WITH source_data AS (
-    SELECT * FROM {{ source('raw', 'taxi_zones') }}
+    SELECT * FROM 'sakhaev_azamkhon_yt_raw.stg_taxi_zones'
 )
 
 SELECT

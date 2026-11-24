@@ -8,3 +8,11 @@ models:
         tests:
           - unique
           - not_null
+
+  - name: stg_nyc_yellow_taxi
+    description: "Záznamy o jízdách žlutých taxíků v New Yorku (Yellow Taxi)"
+    columns:
+      - name: vendor_id
+        tests:
+          - unique
+          - not_null
